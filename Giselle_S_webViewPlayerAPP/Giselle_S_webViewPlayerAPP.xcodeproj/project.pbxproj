@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FEBF2AB24EDA36E001B5B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF2AA24EDA36E001B5B5A /* AppDelegate.swift */; };
+		2FEBF2AD24EDA36E001B5B5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF2AC24EDA36E001B5B5A /* SceneDelegate.swift */; };
+		2FEBF2AF24EDA36E001B5B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF2AE24EDA36E001B5B5A /* ViewController.swift */; };
+		2FEBF2B224EDA36E001B5B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF2B024EDA36E001B5B5A /* Main.storyboard */; };
+		2FEBF2B524EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF2B324EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodeld */; };
+		2FEBF2B724EDA372001B5B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF2B624EDA372001B5B5A /* Assets.xcassets */; };
+		2FEBF2BA24EDA372001B5B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEBF2B824EDA372001B5B5A /* LaunchScreen.storyboard */; };
+		2FEBF2C524EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF2C424EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.swift */; };
+		2FEBF2D024EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEBF2CF24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FEBF2C124EDA372001B5B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEBF29F24EDA36E001B5B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEBF2A624EDA36E001B5B5A;
+			remoteInfo = Giselle_S_webViewPlayerAPP;
+		};
+		2FEBF2CC24EDA372001B5B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FEBF29F24EDA36E001B5B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FEBF2A624EDA36E001B5B5A;
+			remoteInfo = Giselle_S_webViewPlayerAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FEBF2A724EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giselle_S_webViewPlayerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBF2AA24EDA36E001B5B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FEBF2AC24EDA36E001B5B5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FEBF2AE24EDA36E001B5B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FEBF2B124EDA36E001B5B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FEBF2B424EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Giselle_S_webViewPlayerAPP.xcdatamodel; sourceTree = "<group>"; };
+		2FEBF2B624EDA372001B5B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FEBF2B924EDA372001B5B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FEBF2BB24EDA372001B5B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEBF2C024EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Giselle_S_webViewPlayerAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBF2C424EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giselle_S_webViewPlayerAPPTests.swift; sourceTree = "<group>"; };
+		2FEBF2C624EDA372001B5B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEBF2CB24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Giselle_S_webViewPlayerAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FEBF2CF24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giselle_S_webViewPlayerAPPUITests.swift; sourceTree = "<group>"; };
+		2FEBF2D124EDA372001B5B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FEBF2A424EDA36E001B5B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF2BD24EDA372001B5B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF2C824EDA372001B5B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FEBF29E24EDA36E001B5B5A = {
+			isa = PBXGroup;
+			children = (
+				2FEBF2A924EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP */,
+				2FEBF2C324EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests */,
+				2FEBF2CE24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests */,
+				2FEBF2A824EDA36E001B5B5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FEBF2A824EDA36E001B5B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF2A724EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.app */,
+				2FEBF2C024EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.xctest */,
+				2FEBF2CB24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FEBF2A924EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF2AA24EDA36E001B5B5A /* AppDelegate.swift */,
+				2FEBF2AC24EDA36E001B5B5A /* SceneDelegate.swift */,
+				2FEBF2AE24EDA36E001B5B5A /* ViewController.swift */,
+				2FEBF2B024EDA36E001B5B5A /* Main.storyboard */,
+				2FEBF2B624EDA372001B5B5A /* Assets.xcassets */,
+				2FEBF2B824EDA372001B5B5A /* LaunchScreen.storyboard */,
+				2FEBF2BB24EDA372001B5B5A /* Info.plist */,
+				2FEBF2B324EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodeld */,
+			);
+			path = Giselle_S_webViewPlayerAPP;
+			sourceTree = "<group>";
+		};
+		2FEBF2C324EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF2C424EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.swift */,
+				2FEBF2C624EDA372001B5B5A /* Info.plist */,
+			);
+			path = Giselle_S_webViewPlayerAPPTests;
+			sourceTree = "<group>";
+		};
+		2FEBF2CE24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FEBF2CF24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.swift */,
+				2FEBF2D124EDA372001B5B5A /* Info.plist */,
+			);
+			path = Giselle_S_webViewPlayerAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FEBF2A624EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBF2D424EDA372001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_webViewPlayerAPP" */;
+			buildPhases = (
+				2FEBF2A324EDA36E001B5B5A /* Sources */,
+				2FEBF2A424EDA36E001B5B5A /* Frameworks */,
+				2FEBF2A524EDA36E001B5B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Giselle_S_webViewPlayerAPP;
+			productName = Giselle_S_webViewPlayerAPP;
+			productReference = 2FEBF2A724EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FEBF2BF24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBF2D724EDA372001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_webViewPlayerAPPTests" */;
+			buildPhases = (
+				2FEBF2BC24EDA372001B5B5A /* Sources */,
+				2FEBF2BD24EDA372001B5B5A /* Frameworks */,
+				2FEBF2BE24EDA372001B5B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEBF2C224EDA372001B5B5A /* PBXTargetDependency */,
+			);
+			name = Giselle_S_webViewPlayerAPPTests;
+			productName = Giselle_S_webViewPlayerAPPTests;
+			productReference = 2FEBF2C024EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FEBF2CA24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FEBF2DA24EDA372001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_webViewPlayerAPPUITests" */;
+			buildPhases = (
+				2FEBF2C724EDA372001B5B5A /* Sources */,
+				2FEBF2C824EDA372001B5B5A /* Frameworks */,
+				2FEBF2C924EDA372001B5B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FEBF2CD24EDA372001B5B5A /* PBXTargetDependency */,
+			);
+			name = Giselle_S_webViewPlayerAPPUITests;
+			productName = Giselle_S_webViewPlayerAPPUITests;
+			productReference = 2FEBF2CB24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FEBF29F24EDA36E001B5B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Giselle Salgado";
+				TargetAttributes = {
+					2FEBF2A624EDA36E001B5B5A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2FEBF2BF24EDA372001B5B5A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2FEBF2A624EDA36E001B5B5A;
+					};
+					2FEBF2CA24EDA372001B5B5A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2FEBF2A624EDA36E001B5B5A;
+					};
+				};
+			};
+			buildConfigurationList = 2FEBF2A224EDA36E001B5B5A /* Build configuration list for PBXProject "Giselle_S_webViewPlayerAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FEBF29E24EDA36E001B5B5A;
+			productRefGroup = 2FEBF2A824EDA36E001B5B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FEBF2A624EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP */,
+				2FEBF2BF24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests */,
+				2FEBF2CA24EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FEBF2A524EDA36E001B5B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF2BA24EDA372001B5B5A /* LaunchScreen.storyboard in Resources */,
+				2FEBF2B724EDA372001B5B5A /* Assets.xcassets in Resources */,
+				2FEBF2B224EDA36E001B5B5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF2BE24EDA372001B5B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF2C924EDA372001B5B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FEBF2A324EDA36E001B5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF2B524EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodeld in Sources */,
+				2FEBF2AF24EDA36E001B5B5A /* ViewController.swift in Sources */,
+				2FEBF2AB24EDA36E001B5B5A /* AppDelegate.swift in Sources */,
+				2FEBF2AD24EDA36E001B5B5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF2BC24EDA372001B5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF2C524EDA372001B5B5A /* Giselle_S_webViewPlayerAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEBF2C724EDA372001B5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FEBF2D024EDA372001B5B5A /* Giselle_S_webViewPlayerAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FEBF2C224EDA372001B5B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEBF2A624EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP */;
+			targetProxy = 2FEBF2C124EDA372001B5B5A /* PBXContainerItemProxy */;
+		};
+		2FEBF2CD24EDA372001B5B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FEBF2A624EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP */;
+			targetProxy = 2FEBF2CC24EDA372001B5B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FEBF2B024EDA36E001B5B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEBF2B124EDA36E001B5B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FEBF2B824EDA372001B5B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FEBF2B924EDA372001B5B5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FEBF2D224EDA372001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FEBF2D324EDA372001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FEBF2D524EDA372001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_webViewPlayerAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-webViewPlayerAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FEBF2D624EDA372001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_webViewPlayerAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-webViewPlayerAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FEBF2D824EDA372001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_webViewPlayerAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-webViewPlayerAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giselle_S_webViewPlayerAPP.app/Giselle_S_webViewPlayerAPP";
+			};
+			name = Debug;
+		};
+		2FEBF2D924EDA372001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_webViewPlayerAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-webViewPlayerAPPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Giselle_S_webViewPlayerAPP.app/Giselle_S_webViewPlayerAPP";
+			};
+			name = Release;
+		};
+		2FEBF2DB24EDA372001B5B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_webViewPlayerAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-webViewPlayerAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Giselle_S_webViewPlayerAPP;
+			};
+			name = Debug;
+		};
+		2FEBF2DC24EDA372001B5B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Giselle_S_webViewPlayerAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GenesysWorks.Giselle-S-webViewPlayerAPPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Giselle_S_webViewPlayerAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FEBF2A224EDA36E001B5B5A /* Build configuration list for PBXProject "Giselle_S_webViewPlayerAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF2D224EDA372001B5B5A /* Debug */,
+				2FEBF2D324EDA372001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEBF2D424EDA372001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_webViewPlayerAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF2D524EDA372001B5B5A /* Debug */,
+				2FEBF2D624EDA372001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEBF2D724EDA372001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_webViewPlayerAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF2D824EDA372001B5B5A /* Debug */,
+				2FEBF2D924EDA372001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FEBF2DA24EDA372001B5B5A /* Build configuration list for PBXNativeTarget "Giselle_S_webViewPlayerAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FEBF2DB24EDA372001B5B5A /* Debug */,
+				2FEBF2DC24EDA372001B5B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FEBF2B324EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FEBF2B424EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodel */,
+			);
+			currentVersion = 2FEBF2B424EDA36E001B5B5A /* Giselle_S_webViewPlayerAPP.xcdatamodel */;
+			path = Giselle_S_webViewPlayerAPP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FEBF29F24EDA36E001B5B5A /* Project object */;
+}
